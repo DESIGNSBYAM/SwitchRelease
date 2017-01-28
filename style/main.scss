@@ -1,0 +1,132 @@
+
+// font stacks
+$title-font: 'Oswald', sans-serif;
+$body-font: 'Lato', sans-serif;
+
+// global colors
+$magic-purple: #6e67ad;
+$bright-magic-purple: #8781bd;
+$gray-text: #545454;
+$light-gray-text: #7c7c7c;
+$switch-red: #e70012;
+
+// menu
+$menu-bg: #06061b;
+$menu-current: #262630;
+$menu-hover: #161626;
+$menu-text: #fff;
+
+//mixins
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  margin:0;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: $menu-text;
+}
+
+HTML, BODY {
+  font-family: $body-font;
+  font-size:12pt;
+  padding-top: 30px;
+  font-weight: 300;
+}
+H1, H2, H3, H4 {
+  font-family: $title-font;
+  color: $gray-text;
+  em {
+    color: $magic-purple;
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+      width: 1570px;
+  }
+}
+
+.white-text{
+  color:#fff;
+  h1,h2,h3,h4{
+    color:#fff;
+  }
+}
+.text-shadow {
+  text-shadow: 1px 1px 1px #000;
+}
+
+span.filesize{
+  background-color: orange;
+  @include border-radius(3px);
+  padding:2px 5px;
+  color:#fff;
+}
+
+#switch-launch {
+  text-transform: uppercase;
+  font-size: 45px;
+  float:right;
+  padding: 0px 15px;
+  font-family: $title-font;
+  width: 320px;
+}
+
+.margin-auto{
+  margin: 0 auto;
+  display: block;
+}
+.game-logo {
+  margin: 10px auto;
+  display: block;
+}
+nav.navbar {
+  height:65px;
+}
+.navbar-brand {
+  padding: 0px 15px;
+}
+.navbar-inverse {
+    background-color: $switch-red;
+    border: 0;
+}
+.navbar-header{
+  width:100%;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.fontello {
+  font-family: 'fontello', serif;
+  font-size: 24pt;
+  margin-left: 5px;
+}
+a, a:hover, a:active {
+  text-decoration: none;
+}
+a.red{
+  color: $switch-red;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+  padding:15px;
+  font-size:10pt;
+}
+
+.dataTables_wrapper .dataTables_filter input{
+  border: 2px solid #dddddd;
+  @include border-radius(3px);
+}

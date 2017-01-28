@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <link href="https://cdn.datatables.net/fixedheader/3.1.2/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.2/js/dataTables.fixedHeader.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="style/fontello.css" />
+    <link rel="stylesheet" href="style/main.css" />
+
+    <script src="js/jquery.countdown.js"></script>
+    
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <title>Switch Release Schedule</title>
+    </head>
+    <body>
+    <nav class='navbar navbar-inverse navbar-fixed-top'>
+    <div class='navbar-header'>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <!--
+        <span class="icon-bar">f</span>
+        <span class="icon-bar">t</span>
+        <span class="icon-bar">l</span>
+        -->
+      </button>
+      <a class="navbar-brand" href="#"><img src='img/sr_logo.gif' alt='Sorzery Web Solutions' /></a>
+        <div id="switch-launch" class="white-text">Loading Countdown</div>
+        <script type="text/javascript">
+          $('#switch-launch').countdown('2017/03/03', function(event) {
+            $(this).html(event.strftime('%-ww %-dd %H:%M:%S'));
+          });
+        </script>
+    </div>
+    </nav>
+
+    <div class="container-fluid white-text" style='background-image: url(img/zelda-bg.jpg); background-position: bottom;padding:0;'>
+        <div class="container-fluid" style='background-image: url(img/zelda-botw.png); background-position: right; background-repeat: no-repeat; padding:25px 0;'>
+    
+            <div class='text-shadow col-md-3'>
+                <h1 class='text-center text-uppercase'>Next Big Release</h1>
+                <img class='margin-auto' src='img/zelda-botw-logo.png' />
+            </div>
+            <div class='text-shadow col-md-4'>
+            <h1>Known Facts</h1>
+                <table class="table">
+                <tbody>
+                  <tr>
+                        <td>Resolution &amp; FPS</td>
+                        <td>900p30 docked / 720p30 undocked</td>
+                    </tr>
+                    <tr>
+                        <td>Huge World</td>
+                        <td>Single-player Open World</td>
+                    </tr>
+                    <tr>
+                        <td>Voices</td>
+                        <td>Cutscenes have voice overs this time</td>
+                    </tr>
+                    <tr>
+                        <td>Motion Controls</td>
+                        <td>Strictly gyro aiming</td>
+                    </tr>
+                    <tr>
+                        <td>Miscellaneous</td>
+                        <td>"Nintendo's biggest game", 13.4gb file size</td>
+                    </tr>
+                </tbody>
+              </table>
+              <!-- <img class='margin-auto' src='img/controls.svg' /> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+            <h1>Update: January 27th</h1>
+            <p>Scroll down or <a href='#update'>click here</a> to read about table improvements and Patreon ideas.</p>
+    </div>
+    <div class="container">
+        <h1>Nintendo Switch Software Lineup</h1>
+       <table id="biglist" class="table table-hover" cellspacing="0" width="100%">
+            <thead>
+                <tr><th>Trailer</th><th>Title</th><th style='width:100px;'>US Date</th><th>Developer</th><th>Genre</th><th>ESRB</th><th>Platform(s)</th><th>Purchase</th><th class='text-right' style='width:10%;'>US Price</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><a href='https://www.youtube.com/watch?v=j7p47TOmicQ'><img class='game-logo' src='img/logos/1-2-switch.png' /></a></td><td>1, 2 Switch</td></td><td>2017-03-03</td><td>Nintendo</td><td>Motion-Controlled Minigames</td><td><span class='hidden'>3</span>E10+</td><td>Exclusive</td><td></td><td class='text-right'>$49.99</td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=zw47_q9wbBE'><img class='game-logo' src='img/logos/The_Legend_of_Zelda_Breath_of_the_Wild_logo.png' /></a><td>The Legend of Zelda: Breath of the Wild</td></td><td>2017-03-03</td><td>Nintendo</td><td>Action Adventure</td><td><span class='hidden'>3</span>E10+</td><td>Switch, Wii U</td><td><span class='filesize' title='eShop File Size'>13.5gb</span></td><td class='text-right'>$59.99</td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=t8irXyQ6rao'><img class='game-logo' src='img/logos/skylanders_imaginators.png' /></a></td><td>Skylanders: Imaginators</td><td>2017-03-03</td><td>Activision</td><td>Toys-to-life Action Adventure</td><td><span class='hidden'>3</span>E10+</td><td>All</td><td></td><td class='text-right'>$59.99</td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=f98ZwgzYyig'><img class='game-logo' src='img/logos/super-bomberman-r.png' /></a></td><td>Super Bomberman R</td><td>2017-03-03</td><td>Konami</td><td>Action Puzzler</td><td><span class='hidden'>3</span>E10+</td><td>Exclusive</td><td></td><td class='text-right'>$49.99</td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=aMC1yYM07ZU'><img class='game-logo' src='img/logos/just-dance-2017.png' /></a></td><td>Just Dance 2017</td><td>2017-03-03</td><td>Ubisoft</td><td>Motion-Controlled Dancing</td><td><span class='hidden'>3</span>E10+</td><td>All</td><td></td><td class='text-right'>$59.99</td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=GmdeZxByAnw'><img class='game-logo' src='img/logos/setsuna_logo.png' /></a></td><td>I Am Setsuna</td><td>2017-03-03</td><td>Square Enix</td><td>JRPG</td><td><span class='hidden'>3</span>E10+</td><td>Switch, PS4, Vita, PC</td><td>eShop Only</td><td class='text-right'></td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=BbVC1iUTFEM'><img class='game-logo' src='img/logos/little-inferno.png' /></a></td><td>Little Inferno</td><td>2017-03-03</td><td>Tomorrow Corporation</td><td>Puzzle</td><td><span class='hidden'>5</span>T</td><td>All</td><td></td><td class='text-right'></td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=Au7g18k3_GA'><img class='game-logo' src='img/logos/World_of_Goo_Logo.png' /></a></td><td>World of Goo</td><td>2017-03-03</td><td>Tomorrow Corporation</td><td>Puzzle</td><td><span class='hidden'>1</span>E</td><td>All</td><td></td><td class='text-right'></td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=_KDx9ldlPP4'><img class='game-logo' src='img/logos/human-resource-machine.png' /></a></td><td>Human Resource Machine</td><td>2017-03-03</td><td>Tomorrow Corporation</td><td>Puzzle</td><td><span class='hidden'>3</span>E10+</td><td>Switch, Wii U, PC, iOS, Android</td><td></td><td class='text-right'></td></tr>
+                
+                <tr><td><a href='https://youtu.be/zCMQT9s2qBA'><img class='game-logo' src='img/logos/binding-of-isaac-afterbirth-plus.png' /></a></td><td>The Binding of Isaac: Afterbirth+</td><td>2017-03-03</td><td>Nicalis and Edmund</td><td>Rougelike Dungeon Crawler</td><td><span class='hidden'>7</span>M</td><td>All</td><td></td><td class='text-right'>$39.99</td></tr>
+                
+                <tr><td><a href='https://youtu.be/8xtK9o0MJYs'><img class='game-logo' src='img/logos/snipperclips.png' /></a></td><td>Snipperclips</td><td>2017-03-??</td><td>Nintendo</td><td>Puzzle</td><td><span class='hidden'>9</span>RP</td><td>Exclusive</td><td></td><td class='text-right'>$19.99</td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=HQ4ia1-1CPs'><img class='game-logo' src='img/logos/puyo-puyo-tetris.png' /></a></td><td>Puyo Puyo Tetris</td><td>2017-05-02</td><td>Sega</td><td>Puzzle</td><td><span class='hidden'>9</span>RP</td><td>Switch, PS4</td><td></td><td class='text-right'>$39.99</td></tr>
+                
+                <tr><td><a href='https://www.youtube.com/watch?v=k7s3UB_8dFM'><img class='game-logo' src='img/logos/arms.png' /></a></td><td>Arms</td><td>2017-Q2</td><td>Nintendo</td><td>Fighter</td><td><span class='hidden'>9</span>RP</td><td>Exclusive</td><td></td><td class='text-right'>$59.99</td></tr>
+            </tbody>
+        </table>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#biglist').DataTable( {
+            "lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ],
+            buttons: [ 'columnsToggle' ],
+            fixedHeader: {
+                header: true,
+                headerOffset: $('.navbar').height()
+            },
+            "order": [[ 2, "asc" ]]
+        } );
+    } );
+    </script>
+    </div>
+    <div class="container">
+        <h1><a name='update'></a>Update: January 27th</h1>
+        <div class='col-md-6'>
+            <h3>Patreon</h3>
+            <p>I'm setting up a Patreon that gives users a chances to pledge $1, $3, or $5 to this project a month. Even if I get just a dozen or so of these, it'll certainly be enough to pay for itself. I plan on developing perks to those who pledge.</p>
+            <h3>Still Only 13 Games</h3>
+            <p>I'm trying to get the format to my liking before I add all the known games. Sorry! Soon, I'll have this list ran via an SQL database and the list will rapidly grow.</p>
+            <h3>Table Improvements</h3>
+            <p>People didn't like the ultra wide table (it was a bad decision on my part) so I've made some changes. Table still looks bad on mobile. I changed the table headers to now scroll with you. They also now match the look of the site a tiny bit more.</p>
+        </div>
+        <div class='col-md-6'>
+            <ul class="list-group">
+                <li class="list-group-item">The trailer column and logo column have been combined. Logos are now responsive.</li>
+                <li class="list-group-item">ESRB now sorts properly.</li>
+                <li class="list-group-item">eShop and Purchase column are now condensed to one column.</li>
+                <li class="list-group-item">File sizes are going to be put in the Purchase column since that is where eShop info is going to be.</li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+      <div class="container text-center">
+        <p class="text-muted">&copy; Copyright 2017 Switch Release Fansite - Logos belong to their respected trademarks.</p>
+      </div>
+    </footer>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script> -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-91008101-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    </body>   
+</html>

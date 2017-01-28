@@ -1,0 +1,489 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"start",
+				"startsparkle"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"wra",
+				"wrapper"
+			],
+			[
+				"menu",
+				"menu-hover"
+			],
+			[
+				"me",
+				"menu-highlight"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"cate",
+				"categoryname"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 8409,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style/main.scss",
+			"settings":
+			{
+				"buffer_size": 1470,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 165.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/TexarkanaAd006/Google Drive/Game Projects/_nintendoswitch",
+		"/Users/TexarkanaAd006/Google Drive/Game Projects/_nintendoswitch/js",
+		"/Users/TexarkanaAd006/Google Drive/Game Projects/_nintendoswitch/style"
+	],
+	"file_history":
+	[
+		"/Users/TexarkanaAd006/Google Drive/Game Projects/_nintendoswitch/switch-release.sublime-project",
+		"/Users/TexarkanaAd006/Google Drive/_Sorzery/Site v1/sz-site1.sublime-project",
+		"/Users/TexarkanaAd006/Google Drive/_Sorzery/Site v1/sorzery.html",
+		"/Users/TexarkanaAd006/Google Drive/_Sorzery/Site v1/style/main.scss",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/House/2016 9 Days of Christmas/Sponsors/Sponsor List.txt",
+		"/Users/TexarkanaAd006/Google Drive/_Sorzery/Site v1/style/main.css",
+		"/Users/TexarkanaAd006/Google Drive/_Sorzery/Site v1/style/style.scss",
+		"/Users/TexarkanaAd006/Google Drive/Game Loco/Testcycle 2/itch/itch.html",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/var/www/html/safelink.txt",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/var/www/html/.htaccess",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/var/www/html/wp-config.php",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/var/www/html/wp-content/plugins/hide-my-wp/uninstall.php",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/var/www/html/wp-content/plugins/hide-my-wp/config.xml",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/var/www/html/wp-content/plugins/hide-my-wp/config/config.php",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/var/www/html/wp-content/plugins/hide-my-wp/config/paths.php",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/6143f100-8617-4ac9-86b4-3abb3b309dfa/var/www/html/test/index.php",
+		"/Users/TexarkanaAd006/Google Drive/_Clients/Daniel Frick/svg.svg",
+		"/Users/TexarkanaAd006/Downloads/pets",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/6143f100-8617-4ac9-86b4-3abb3b309dfa/var/www/html/test/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/brchamps/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/brchamps/acts/test.php",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/var/www/html/index.php",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/var/lib/phpmyadmin/config.inc.php",
+		"/Users/TexarkanaAd006/Downloads/phpMyAdmin-4.6.4-all-languages/sql/create_tables.sql",
+		"/Users/TexarkanaAd006/Downloads/phpMyAdmin-4.6.4-all-languages/config.inc.php",
+		"/Users/TexarkanaAd006/Downloads/phpMyAdmin-4.6.4-all-languages/config.sample.inc.php",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/etc/phpmyadmin/config-db.php",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/etc/dbconfig-common/phpmyadmin.conf",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/etc/phpmyadmin/config.inc.php",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/etc/php5/conf.d/mysqli.ini",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/etc/php5/apache2/php.ini",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/etc/php5/conf.d/mysql.ini",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/etc/dbconfig-common/config",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/etc/apache2/apache2.conf",
+		"/private/var/folders/5z/z29fcxln64168dh_q0f3ct4h0000gn/T/2569d0df-d99f-4f64-91b2-97abf86a071d/etc/apache2/httpd.conf",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Test Workflow/christy.sh",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Test Workflow/donna.sh",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Test Workflow/test.sh",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Test Workflow/create folders.command",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/House/CarsTexarkana.com/carscom.svg",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/_posts/2020-05-18-nice-shot.markdown",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/_posts/2100-05-18-nice-shot.markdown",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/_sass/_layout.scss",
+		"/Users/TexarkanaAd006/Google Drive/_Clients/_TXK Front Page Digital/css/carousel.css",
+		"/Users/TexarkanaAd006/Google Drive/Game Projects/1_nationalcarball.com/upload.html",
+		"/Users/TexarkanaAd006/Google Drive/_Clients/_TXK Front Page Digital/index.html",
+		"/Users/TexarkanaAd006/Google Drive/_Clients/_TXK Front Page Digital/css/bootstrap.css",
+		"/Users/TexarkanaAd006/Google Drive/_Clients/_TXK Front Page Digital/css/bootstrap-theme.css",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/_posts/2016-06-27-futrell-marine.markdown",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/index.html",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/_posts/2016-06-27-readers-choice.markdown",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/_posts/2016-05-10-a-loco-idea.markdown",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/_layouts/post.html",
+		"/Users/TexarkanaAd006/Google Drive/Game Loco/backup/ec2/index.html",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Assets/2016 Reader's Choice Winners.xml",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/_posts/2016-05-18-nice-shot.markdown",
+		"/Users/TexarkanaAd006/Downloads/Format is Name.md",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/House/COVERS/map (2).svg",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam.github.io/about.md",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam-site/_posts/2016-04-05-welcome-to-jekyll.markdown",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam-site/_config.yml",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/Jekyll/designsbyam-site/_sass/_layout.scss",
+		"/Users/TexarkanaAd006/Desktop/Ads for Andrew/Github/DESIGNSBY.AM/designsby.am/readme.md",
+		"/Users/TexarkanaAd006/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"footer",
+			"<a",
+			"social",
+			"current",
+			"active",
+			"light-gray",
+			"p {",
+			"p",
+			"padding",
+			"nopad",
+			"purple",
+			"sparkle",
+			"\n\n",
+			", ",
+			">\n",
+			"designer",
+			"user",
+			"host",
+			"pass",
+			"allow",
+			"pass",
+			"root",
+			"h2",
+			"h1",
+			"ul",
+			"h3 class='resume'",
+			"h3",
+			"rale",
+			"h3",
+			"nav",
+			"container",
+			"rale",
+			"font",
+			"p",
+			"feature",
+			"h1",
+			"first",
+			"first-slide",
+			"data-src=\"holder.js/500x500/auto\"",
+			"1000x500",
+			"clear:",
+			"list",
+			"img",
+			"post-content",
+			"page",
+			"weight",
+			"font-famil",
+			"font-family",
+			"rale",
+			"\\n",
+			"-",
+			"^$\\n",
+			".$\\n",
+			"</winner>",
+			"^$\\n",
+			"</winner>\\n<winners>",
+			"</winner>/n<winners>",
+			"<winner>",
+			"Real Estate",
+			"<categoryname",
+			"^\\s*$",
+			"^\\s$",
+			"\\n*",
+			"\\b</subcategory>",
+			"&",
+			"<category>",
+			"h2",
+			"h1",
+			".*\\n.*\\n.*\\n.*\\n",
+			".*\\n.*\\n.*\\n",
+			"legend"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n\n",
+			"h3",
+			"src=\"https://placehold.it/500\"",
+			"1920x600",
+			"|",
+			"</winners>",
+			"",
+			"<winners>",
+			"&amp;",
+			"<category><categoryname>",
+			"subcategory",
+			"category",
+			"<h2>$1",
+			"<h2>.*\\n.*\\n.*\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3368,
+								3368
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 130.0,
+						"translation.y": 932.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1436,
+								1436
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 835.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "switch-release.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Ads for Andrew/Github/DESIGNSBY.AM/designsby.am/readme.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
